@@ -1,5 +1,5 @@
 from . import api
-import controllers
+import controllers.sample
 
 def add_routes():
-    api.add_resource(controllers.auth.Login, '/')
+    api.add_resource(controllers.sample.SampleController, '/')
